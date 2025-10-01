@@ -71,14 +71,14 @@
                     bridge.platform.on('pause_state_changed', isPaused => sendMessageToUnity('OnPauseStateChanged', isPaused.toString()))
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'Build/416bd62924c7ccf9ec0ae4bfa7121fb9.loader.js'
+                    unityLoader.src = 'Build/092689b99a2e6078faef316f97164804.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                             canvas,
                             {
-                                dataUrl: 'Build/9ad1c7479122bb2c1cb3d431916e8a3f.data.unityweb',
+                                dataUrl: 'Build/3f9879409683b15806f689b9520df228.data.unityweb',
                                 frameworkUrl: 'Build/2cebdebeed3d9f094b1bf8198a9124cd.framework.js.unityweb',
-                                codeUrl: 'Build/c635df79299943d53de273ed4e011f42.wasm.unityweb',
+                                codeUrl: 'Build/733f2ee1dcd7d7b76700a8b38a1508ba.wasm.unityweb',
                                 streamingAssetsUrl: 'StreamingAssets',
                                 companyName: 'DefaultCompany',
                                 productName: 'Mergx',
